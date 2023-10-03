@@ -1,0 +1,15 @@
+.SCFI{
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.SCFI:focus{
+    outline: none;
+    border: none;
+}
+.SCFI::placeholder{
+    font-size: 18px;
+    font-weight: 550;
+    color: #000;
+}
+

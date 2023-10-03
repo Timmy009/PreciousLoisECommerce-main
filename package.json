@@ -1,0 +1,21 @@
+{
+  "name": "p_l_fullstatck_e_c_application",
+  "version": "1.0.0",
+  "description": "Prcious Lois E-commerce is a full stack application built with node js for the server side and react js for the client side",
+  "main": "index.js",
+  "scripts": {
+    "build": "concurrently \"cd Frontend && npm run build\" \"cd Backend && npm run build\"",
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kindyluv/AmyFullStatckApplication.git"
+  },
+  "author": "Amy Doll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kindyluv/AmyFullStatckApplication/issues"
+  },
+  "homepage": "https://github.com/kindyluv/AmyFullStatckApplication#readme"
+}
